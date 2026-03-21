@@ -1,0 +1,8 @@
+{application, stringprep_rust, [
+  {description, "Rust-backed stringprep NIF with LRU cache"},
+  {vsn, "0.1.0"},
+  {licenses, ["Apache-2.0"]},
+  {modules, []},
+  {registered, []},
+  {applications, [kernel, stdlib]}
+]}.
